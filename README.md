@@ -42,17 +42,12 @@ The agents work collaboratively in a pipeline architecture to process user input
     * The Recommendation Agent suggests complementary products.
 
 
-## 📱 React Native Coffee Shop App
+## 📱 Coffee Shop App
 ![Coffee Shop Agent Architecture](./images/mobile_app.png)
 
 The React Native Coffee Shop App serves as the front-end interface for customers to interact with the AI-powered chatbot and explore the menu. Designed with a clean, intuitive user experience in mind, the app seamlessly integrates the chatbot for real-time customer service, enabling users to place orders, receive personalized product recommendations, and get detailed information about menu items.
 
-### Key Features:
-* **Landing Page:** A welcoming entry point to the coffee shop experience.
-* **Home Page:** Displays featured menu items and product categories.
-* **Item Details Page:** Provides detailed descriptions, including ingredients and allergens for each item.
-* **Cart Page:** Allows users to review and modify their order before checkout.
-* **Chatbot Interface:** Enables customers to interact directly with the AI chatbot for order assistance, recommendations, and queries.
+
 
 ## 💬 Telegram Bot Integration
 The chatbot can also be accessed directly through Telegram, providing a lightweight and accessible interface for customers without requiring them to download a dedicated mobile app.
@@ -81,7 +76,7 @@ The chatbot can also be accessed directly through Telegram, providing a lightwei
 # 📂 Directory Structure
 ```bash
 ├── coffee_shop_customer_service_chatbot
-│   ├── coffee_shop_app_folder # Contains React Native app code   
+│     
 │   ├── python_code
 │       ├── API/               # Chatbot API for agent-based system
 │       ├── dataset/           # Dataset for training recommendation engine    
@@ -93,9 +88,17 @@ The chatbot can also be accessed directly through Telegram, providing a lightwei
 
 ## 🚀 System Components
 Each component is independently deployable with configuration in its respective directory:
-* **Frontend (React Native):** Mobile app interface
 * **Backend (Python API):** Agent orchestration and LLM integration
 * **Data Layer:** Vector database, recommendation engine, product information 
+
+## ⚡ Running the Program
+To start the chatbot backend and agent system, run:
+
+```bash
+python python/api/bot.py
+```
+
+This command initializes the bot with all configured agents and starts the server for handling customer interactions across both the mobile app and Telegram interfaces.
 
 ## 🔗 Refrence Links
 * [RunPod](https://rebrand.ly/Runpod-Abdullah): RunPod Official Site - Infrastructure for deploying and scaling machine learning models.

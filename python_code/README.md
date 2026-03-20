@@ -47,7 +47,7 @@ To set up the project and run the notebooks, follow these steps:
     ```
 
 3. **Create a RunPod Account**:
-    * Sign up for a [RunPod](https://rebrand.ly/Runpod-Abdullah) account.
+    * Sign up for a [RunPod](*******) account.
     * Create a ChatBot endpoint and an embedding endpoint.
     * Obtain your RunPod token and fill in the .env file with the following:
     ```
