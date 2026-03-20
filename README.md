@@ -14,7 +14,7 @@ The goal of this project is to create a smart, **agent-based chatbot** that can:
 
 
 ## 🧠 Chatbot Agent Architecture
-![Coffee Shop Agent Architecture](./images/chatbot_agent_architecture.jpg)
+![Coffee Shop Agent Architecture](./chatbot_agent_architecture.jpg)
 
 The chatbot in this project is designed using a modular agent-based architecture, where each agent is responsible for a specific task, ensuring a seamless and efficient interaction between the user and the coffee shop’s services. This architecture enables the chatbot to perform complex actions by delegating tasks to specialized agents, making the system highly flexible, scalable, and easy to extend.
 
