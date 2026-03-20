@@ -95,7 +95,7 @@ Each component is independently deployable with configuration in its respective 
 To start the chatbot backend and agent system, run:
 
 ```bash
-python python/api/bot.py
+python python_code/api/bot.py
 ```
 
 This command initializes the bot with all configured agents and starts the server for handling customer interactions across both the mobile app and Telegram interfaces.
